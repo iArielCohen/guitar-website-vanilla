@@ -489,14 +489,17 @@ body {
   cursor: pointer;
   background-color: #33383b;
   border-radius: 2px;
-
   font-size: 20px;
   color: #ffffff;
   text-align: center;
   line-height: 35px;
-
   margin-right: 3px;
   margin-bottom: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer-distributed .footer-icons a:hover {
+  transform: scale(1.15);
 }
 
 .fa-facebook-square:hover {
